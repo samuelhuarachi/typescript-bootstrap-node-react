@@ -16,5 +16,16 @@
         "noImplicitReturns": true,
         "skipLibCheck": true
     },
-    "exclude": ["public", "resources", "node_modules", ".docker", ".vscode", "webpack.config.js", "dist"]
+    "exclude": [
+        "jest.config.js",
+        "public",
+        "resources",
+        "node_modules",
+        ".docker",
+        ".vscode",
+        "webpack.config.js",
+        "dist",
+        "__tests__",
+        "webpack.dev.js"
+    ]
 }

@@ -3,7 +3,7 @@ module.exports = {
     preset: "ts-jest/presets/js-with-ts",
     testEnvironment: "node",
     coveragePathIgnorePatterns: ["/node_modules/", "/src/", "dist"],
-    rootDir: "./__tests__/app",
+    rootDir: "./__tests__",
     verbose: true,
     modulePathIgnorePatterns: [".docker", "node_modules", "./__tests__/app/coverage", "./__tests__/app/__mocks__", "src", "dist", "css_dependecy"],
     transform: {
